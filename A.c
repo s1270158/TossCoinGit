@@ -17,6 +17,12 @@ printf("Tossing a coin...\n");
     printf("Round%d: Tails\n",i+1);
     tail++;
   }
+  if(head>tail){
+    printf("%s won!\n",name[100]);
+  }
+  else{
+    printf("%s lose\n",name[100]);
+  }
 }
 printf("Heads: %d, Tails: %d\n",head,tail);
 
