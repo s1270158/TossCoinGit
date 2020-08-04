@@ -2,10 +2,16 @@
 #include<time.h>
 #include<stdlib.h>
 
-int main()
-{
+int main(){
+
   int head = 0,tail = 0,i=0;
+  char name[100];
+
   srand((unsigned int)time(NULL));
+
+  printf("Who are you?");
+  scanf("%s",name);
+printf("Hello, %s\n",name);
 
 printf("Tossing a coin...\n");
   for(i=0;i<3;i++){
